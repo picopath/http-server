@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "description": "Http/Https/Http2 Server",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "patch": "npm version patch -m \"Tag v%s\"",
+    "minor": "npm version minor -m \"Tag v%s\"",
+    "major": "npm version major -m \"Tag v%s\""
+  },
   "bin": {
     "picoserver": "./bin.js"
   },
