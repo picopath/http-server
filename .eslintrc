@@ -1,0 +1,10 @@
+{
+  "extends": ["eslint:recommended", "plugin:node/recommended"],
+  "rules": {
+    "quotes": ["error", "single"],
+    "no-console": ["off"]
+  },
+  "env": {
+    "node": true
+  }
+}
