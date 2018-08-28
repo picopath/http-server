@@ -10,7 +10,8 @@ const history = require('connect-history-api-fallback');
 
 require('colors');
 
-function errorHandler(error) {
+// eslint-disable-next-line
+function errorHandler(error, req, res, next) {
   console.error('Unexpected error:'.red, error);
 }
 
