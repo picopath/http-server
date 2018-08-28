@@ -7,7 +7,7 @@ Motivation: This is a simple rewrite of an older project of mine that used 'now 
 `picoserver` can be installed using npm or other nodejs package managers.
 
 ```
-  npm install -g @picopath/server
+  npm install -g @picopath/http-server
 ```
 
 # Usage
