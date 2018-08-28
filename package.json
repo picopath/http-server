@@ -15,6 +15,14 @@
   ],
   "author": "Ashley G Ramdass <agramdass@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/picopath/http-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/picopath/http-server/issues"
+  },
+  "homepage": "https://github.com/picopath/http-server#readme",
   "engines": {
     "node": ">=10"
   },
