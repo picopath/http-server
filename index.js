@@ -10,6 +10,17 @@ const history = require('connect-history-api-fallback');
 
 require('colors');
 
+morgan.token('remote-addr', function(req) {
+  return (
+    req.headers['x-real-ip'] ||
+    req.headers['x-forwarded-for'] ||
+    req.ip ||
+    req._remoteAddress ||
+    (req.connection && req.connection.remoteAddress) ||
+    undefined
+  );
+});
+
 // eslint-disable-next-line
 function errorHandler(error, req, res, next) {
   console.error('Unexpected error:'.red, error);
