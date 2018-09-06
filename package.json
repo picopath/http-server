@@ -1,6 +1,6 @@
 {
   "name": "@picopath/http-server",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Http/Https/Http2 Server",
   "main": "index.js",
   "scripts": {
